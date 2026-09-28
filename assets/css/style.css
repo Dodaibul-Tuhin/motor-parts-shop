@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.app-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 230px;
+    background: #1f2233;
+    color: #fff;
+    padding-top: 20px;
+    flex-shrink: 0;
+}
+
+.sidebar-title {
+    text-align: center;
+    padding: 0 10px 20px;
+    border-bottom: 1px solid #333650;
+    margin-bottom: 10px;
+}
+
+.sidebar .nav-link {
+    color: #cfd2e0;
+    padding: 12px 20px;
+}
+
+.sidebar .nav-link:hover {
+    background: #2b2e45;
+    color: #fff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 0;
+}
+
+.topbar {
+    background: #fff;
+    padding: 18px 30px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    font-size: 16px;
+}
+
+.page-body {
+    padding: 25px 30px;
+}
+
+.stat-card {
+    border-radius: 10px;
+    padding: 18px 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.stat-card h6 {
+    opacity: 0.9;
+    margin-bottom: 8px;
+}
+
+.stat-card h2 {
+    margin-bottom: 10px;
+}
+
+.stat-card a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.bg-blue { background: #2f6bff; }
+.bg-green { background: #1e9e5a; }
+.bg-yellow { background: #f0a500; }
+.bg-red { background: #d9435e; }
+.bg-cyan { background: #17b6c9; }
+.bg-purple { background: #6c4fd1; }
+.bg-pink { background: #e0367e; }
+.bg-orange { background: #f07d1c; }
+
+/* Login page */
+.login-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1f2233;
+}
+
+.login-box {
+    background: #fff;
+    padding: 35px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+table.table {
+    background: #fff;
+}
